@@ -1,0 +1,3 @@
+global_step=185970
+beta=0.35472359526055586
+lr_multiplier=2.0

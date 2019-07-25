@@ -1,17 +1,3 @@
-'''
-Mujoco HalfCheetah Walker with with Selective Memory Actor Critic
-solution by Michel Aka author of FitML github blog and repository
-https://github.com/FitMachineLearning/FitML/
-https://www.youtube.com/channel/UCi7_WxajoowBl4_9P0DhzzA/featured
-Update
-Deep Network
-Starts to crawl at 78
-
-Adagrad
-0.99 delta
-0.1 dropout
-
-'''
 import numpy as np
 import keras
 import gym
@@ -41,7 +27,7 @@ num_env_actions = 4
 num_initial_observation = 0
 learning_rate =  0.006
 apLearning_rate = 0.002
-ENVIRONMENT_NAME = "BipedalWalker-v2"
+ENVIRONMENT_NAME = "BipedalWalkerHardcore-v2"
 version_name = ENVIRONMENT_NAME + "PN_v3.0"
 weigths_filename = version_name+"-weights.h5"
 apWeights_filename = version_name+"-weights-ap.h5"
